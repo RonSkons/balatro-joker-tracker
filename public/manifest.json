@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Balatro Joker Tracker",
+  "name": "Track your Balatro joker progress",
   "icons": [
     {
       "src": "favicon.ico",
