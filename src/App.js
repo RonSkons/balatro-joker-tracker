@@ -20,7 +20,12 @@ function App() {
         />
       </header>
       <div style={{ width: "100%" }}>
-        {state && <><p style={{ color: "#ffffff" }} >Click a Joker to open wiki!</p><SaveFileViewer file={state} /></>}
+        {state && (
+          <>
+            <p style={{ color: "#ffffff" }}>Click a Joker to open wiki!</p>
+            <SaveFileViewer file={state} />
+          </>
+        )}
       </div>
       <footer>
         <p>
