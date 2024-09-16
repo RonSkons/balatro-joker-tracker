@@ -3,7 +3,7 @@ import { processFile } from "./loading";
 import { useEffect, useState } from "react";
 
 export function SaveFileViewer({ file }) {
-  let [state, setState] = useState(null);
+  const [state, setState] = useState(null);
   useEffect(() => {
     file
       .arrayBuffer()

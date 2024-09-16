@@ -1,5 +1,5 @@
 export function Joker({ name, data }) {
-  let stakes = {
+  const stakes = {
     0: {
       backgroundColor: "rgba(237, 246, 248, 0.1)",
       textColor: "whitesmoke",
@@ -47,13 +47,13 @@ export function Joker({ name, data }) {
     },
   };
 
-  let wins = Object.keys(data["wins"]);
-  var maxStake = 0;
+  const wins = Object.keys(data["wins"]);
+  let maxStake = 0;
   if (wins.length > 0) {
     maxStake = Math.max(...wins);
   }
 
-  let processedName = name.substring(2).replaceAll("_", " ");
+  const processedName = name.substring(2).replaceAll("_", " ");
   var imageSource;
   try {
     imageSource = require("./jokers/" + name + ".png");
