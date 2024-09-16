@@ -65,7 +65,7 @@ export function Joker({ name, data }) {
   } else {
     processedName = name;
     imageSource = require("./jokers/j_joker.png");
-    wikiLink = "https://balatrogame.fandom.com/wiki/Balatro_Wiki"
+    wikiLink = "https://balatrogame.fandom.com/wiki/Balatro_Wiki";
   }
 
   return (
@@ -78,7 +78,7 @@ export function Joker({ name, data }) {
         color: stakes[maxStake].textColor,
       }}
     >
-      <a href={wikiLink} target="_blank">
+      <a href={wikiLink} target="_blank" rel="noreferrer">
         <img
           src={imageSource}
           alt={processedName}
