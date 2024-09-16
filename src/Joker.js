@@ -1,3 +1,5 @@
+import { joker_map } from "./jokerInfo";
+
 export function Joker({ name, data }) {
   const stakes = {
     0: {
@@ -7,7 +9,7 @@ export function Joker({ name, data }) {
     },
     1: {
       backgroundColor: "rgb(237, 246, 248)",
-      textColor: "#282c34",
+      textColor: "#000000",
       name: "White Stake",
     },
     2: {
@@ -53,12 +55,17 @@ export function Joker({ name, data }) {
     maxStake = Math.max(...wins);
   }
 
-  const processedName = name.substring(2).replaceAll("_", " ");
-  var imageSource;
-  try {
-    imageSource = require("./jokers/" + name + ".png");
-  } catch (e) {
-    imageSource = require("./jokers/" + name + ".gif");
+  let processedName;
+  let imageSource;
+  let wikiLink;
+  if (name in joker_map) {
+    processedName = joker_map[name]["properName"];
+    imageSource = require("./" + joker_map[name]["imagePath"]);
+    wikiLink = joker_map[name]["wiki"];
+  } else {
+    processedName = name;
+    imageSource = require("./jokers/j_joker.png");
+    wikiLink = "https://balatrogame.fandom.com/wiki/Balatro_Wiki"
   }
 
   return (
@@ -71,11 +78,13 @@ export function Joker({ name, data }) {
         color: stakes[maxStake].textColor,
       }}
     >
-      <img
-        src={imageSource}
-        alt={processedName}
-        style={{ height: "20vh" }}
-      ></img>
+      <a href={wikiLink} target="_blank">
+        <img
+          src={imageSource}
+          alt={processedName}
+          style={{ height: "20vh" }}
+        ></img>
+      </a>
       <p
         style={{
           textTransform: "capitalize",
