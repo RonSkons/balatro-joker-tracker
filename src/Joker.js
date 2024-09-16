@@ -1,4 +1,4 @@
-import { joker_map } from "./jokerInfo";
+import { jokerMap } from "./jokerInfo";
 
 export function Joker({ name, data }) {
   const stakes = {
@@ -58,10 +58,10 @@ export function Joker({ name, data }) {
   let processedName;
   let imageSource;
   let wikiLink;
-  if (name in joker_map) {
-    processedName = joker_map[name]["properName"];
-    imageSource = require("./" + joker_map[name]["imagePath"]);
-    wikiLink = joker_map[name]["wiki"];
+  if (name in jokerMap) {
+    processedName = jokerMap[name]["properName"];
+    imageSource = require("./" + jokerMap[name]["imagePath"]);
+    wikiLink = jokerMap[name]["wiki"];
   } else {
     processedName = name;
     imageSource = require("./jokers/j_joker.png");
