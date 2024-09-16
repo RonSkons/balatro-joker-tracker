@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/balatro-joker-tracker/static/css/main.a9699de0.css",
-    "main.js": "/balatro-joker-tracker/static/js/main.7e4810dc.js",
+    "main.js": "/balatro-joker-tracker/static/js/main.8f09620b.js",
     "static/media/j_hologram.gif": "/balatro-joker-tracker/static/media/j_hologram.83c5fb66000a108d7542.gif",
     "static/media/balatro.ttf": "/balatro-joker-tracker/static/media/balatro.4bc479bb6ca136f0675e.ttf",
+    "static/media/index.cjs": "/balatro-joker-tracker/static/media/index.1282334337c6cac7deca.cjs",
     "static/media/j_wee.png": "/balatro-joker-tracker/static/media/j_wee.ce4d5439c64d11fcd4f6.png",
     "static/media/j_photograph.png": "/balatro-joker-tracker/static/media/j_photograph.83664f0d9bb4f65ba72a.png",
     "static/media/j_brainstorm.png": "/balatro-joker-tracker/static/media/j_brainstorm.3c64ce456ae2ccb460ac.png",
     "index.html": "/balatro-joker-tracker/index.html",
     "main.a9699de0.css.map": "/balatro-joker-tracker/static/css/main.a9699de0.css.map",
-    "main.7e4810dc.js.map": "/balatro-joker-tracker/static/js/main.7e4810dc.js.map"
+    "main.8f09620b.js.map": "/balatro-joker-tracker/static/js/main.8f09620b.js.map"
   },
   "entrypoints": [
     "static/css/main.a9699de0.css",
-    "static/js/main.7e4810dc.js"
+    "static/js/main.8f09620b.js"
   ]
 }
