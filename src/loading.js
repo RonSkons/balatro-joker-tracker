@@ -1,3 +1,8 @@
+/*
+From balatro-save-loader by WilsontheWolf:
+https://github.com/WilsontheWolf/balatro-save-loader/blob/master/src/helpers/loading.js
+*/
+
 import Pako from "pako";
 
 const returnPrefix = /^return /;
