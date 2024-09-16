@@ -1,7 +1,7 @@
 export function Joker({ name, data }) {
   const stakes = {
     0: {
-      backgroundColor: "rgba(237, 246, 248, 0.1)",
+      backgroundColor: "rgba(237, 246, 248, 0.15)",
       textColor: "whitesmoke",
       name: "n/a",
     },
