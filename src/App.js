@@ -31,11 +31,19 @@ function App() {
         <p>
           By{" "}
           <a
-            href="https://github.com/RonSkons/balatro-joker-tracker"
+            href="https://github.com/RonSkons"
             target="_blank"
             rel="noreferrer"
           >
             @RonSkons
+          </a>
+          &nbsp;and&nbsp;
+          <a
+            href="https://github.com/Dan1elTheMan1el"
+            target="_blank"
+            rel="noreferrer"
+          >
+            @Dan1elTheMan1el
           </a>
         </p>
       </footer>
