@@ -325,9 +325,9 @@ export const jokerMap = {
     wiki: "https://balatrogame.fandom.com/wiki/Square_Joker_(Joker)",
   },
   j_seance: {
-    properName: "Seance",
+    properName: "Séance",
     imagePath: "jokers/j_seance.png",
-    wiki: "https://balatrogame.fandom.com/wiki/Seance_(Joker)",
+    wiki: "https://balatrogame.fandom.com/wiki/Séance_(Joker)",
   },
   j_riff_raff: {
     properName: "Riff-raff",
@@ -725,9 +725,9 @@ export const jokerMap = {
     wiki: "https://balatrogame.fandom.com/wiki/Bootstraps_(Joker)",
   },
   j_caino: {
-    properName: "Caino",
+    properName: "Canio",
     imagePath: "jokers/j_caino.png",
-    wiki: "https://balatrogame.fandom.com/wiki/Caino_(Joker)",
+    wiki: "https://balatrogame.fandom.com/wiki/Canio_(Joker)",
   },
   j_triboulet: {
     properName: "Triboulet",
@@ -749,4 +749,9 @@ export const jokerMap = {
     imagePath: "jokers/j_perkeo.png",
     wiki: "https://balatrogame.fandom.com/wiki/Perkeo_(Joker)",
   },
+  j_cartomancer: {
+    properName: "Cartomancer",
+    imagePath: "jokers/j_cartomancer",
+    wiki: "https://balatrogame.fandom.com/wiki/Cartomancer_(Joker)"
+  }
 };
